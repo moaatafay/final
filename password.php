@@ -66,6 +66,10 @@ $idbase=mysqli_select_db($idcom,$base);
 				echo "<script type=\"text/javascript\">alert(\"Enregistrer  \")</script>";
 				echo "<script type=\"text/javascript\">window.location=\"logout.php\"</script>";}
 			}
+			else{
+				echo "<script type=\"text/javascript\">alert(\"Erreur . Veuillez repeter  \")</script>";
+				echo "<script type=\"text/javascript\">window.location=\"profil.php\"</script>";
+			}
 		}
 
 
