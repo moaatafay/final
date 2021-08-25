@@ -58,7 +58,7 @@ $idbase=mysqli_select_db($idcom,$base);
 			$requete="UPDATE `utilisateur` SET `password`='$nouveau' WHERE password like '$actuel' ";
 			$result=mysqli_query($idcom,$requete) ;
 			if (!$result) {
-				echo "<script type=\"text/javascript\">alert(\"Erreur . Veuillez repeter  \")</script>";
+				echo "<script type=\"text/javascript\">alert(\"Erreur . Mot de passe incorrect  \")</script>";
 				echo "<script type=\"text/javascript\">window.location=\"profil.php\"</script>";
 				
 			}
