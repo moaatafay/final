@@ -49,7 +49,7 @@ define("MYPASS","");
 				<input type="submit" value="chercher" name="found"></form></div>
 			<table  id="visiteur">
 				<tr>
-					<th>CNE</th>
+					<th>CIN</th>
 					<th>Nom et Prenom</th>
 					<th>Division</th>
 					<th>Raison</th>
