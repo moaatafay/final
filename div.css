@@ -1,0 +1,217 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.barre{
+	
+	height: 50px;
+	padding: 15px 0px 0px 250px;
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	font-family: cursive;
+}
+.navbar{
+	height: 100%;
+	width: 230px;
+	position: fixed;
+	top: -35px;
+	left: 0px;
+	background-color:gray ;
+	
+	transition: 0.5s;
+	z-index: 1;
+	overflow: hidden;
+	padding-top: 100px;
+
+}
+.navbar a{
+	padding: 20px 8px 20px 32px;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	display: block;
+	width: 100%;
+	left: 0px;
+	top: -20px;
+	transition: 0.3s;
+	font-family: cursive;
+
+}
+.navbar a:hover{
+color :gray;
+background-color: white;
+background-size: auto;
+}
+.header{
+	margin-left: 240px;
+	margin-top: 10px;
+	
+	margin-right: 10px;
+	
+	height: 550px;
+}
+.add{
+	margin-left: 1000px;
+	background-color: gray;
+		margin-top: 10px;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	border: 0;	
+	cursor: pointer;
+	
+}
+.header p{
+	
+	position: absolute;
+	padding-left: 10px;
+	font-family: cursive;
+	font-size: 15px;
+
+}
+.add:hover{
+	background-color: green;
+	color: white;
+	border-color: green;
+}
+.container#blur.active{
+	filter:  blur(10px);
+	pointer-events: none;
+	user-select: none;
+}
+
+	
+
+
+.search{
+	text-align: right;
+	margin-top: 15px;
+	margin-right:30px ;
+}
+
+#visiteur {
+ 
+  border-collapse: collapse;
+  width: 95%;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+#visiteur td, #visiteur th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#visiteur tr:nth-child(even){background-color: #f2f2f2;}
+
+#visiteur tr:hover {background-color: #ddd;}
+
+#visiteur th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+}
+#popup{
+	 position: fixed;
+	 top: 10%;
+	 left: 30%;
+	 width: 35%;
+	 box-shadow: .2px .2px;
+	 visibility: hidden;
+	 opacity: 0;
+	 transition: 0.5s;
+	 background-color: white;
+	 border: 2px solid black;
+	 border-radius: 5px;
+	 z-index: 1;
+	 
+
+}
+#popup button{
+	background-color: white;
+	border: 0;
+	margin-left:250px ;
+	color: gray;
+	cursor: pointer;
+	text-decoration: none;
+	cursor: pointer;
+
+
+}
+#popup button:hover{
+	color: #dc3545;
+}
+#popup label{
+	position: relative;
+	 font-family:cursive;
+	font-size: 20px;
+	margin-left: 10px;
+	
+	
+}
+#popup td{
+font-size: 15px;
+text-align: center;
+}
+#popup tr{
+	height: 75px;
+	}
+#popup input,select{
+	height: 30px;
+	font-size: 15px;
+	}
+	#popup select{
+		width: 98%;
+	}
+	.save{
+		background-color: #198754;
+		color: white;
+		border-radius: 10px;
+		border: 0;
+		margin-right: 20px;
+		box-shadow: 0px;
+		cursor: pointer;
+
+	}
+	.save:hover{
+		background-color: white;
+		color : #198754;
+	}
+	
+	.out{
+		background-color: #dc3545;
+		color: white;
+		border-radius: 10px;
+		;
+		margin-right: 10px;
+		border: 0;
+		cursor: pointer;
+	}
+	.out:hover{
+		background-color: white  ;
+		color: #dc3545;
+	}
+	#popup.active{
+		visibility: visible;
+		opacity: 1;
+		/*transition: 0.5s;*/
+	}
+		#divv{
+	color :gray;
+background-color: white;
+background-size: auto;
+}
+.effet{
+	background-color: gray;
+border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	border: 0;	
+	cursor: pointer;
+}
+.effet:hover{
+	background-color: #dc3545;
+	color: white;
+	border-color: #dc3545;
+}

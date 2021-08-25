@@ -1,0 +1,96 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.barre{
+	
+	height: 50px;
+	padding: 15px 0px 0px 250px;
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	font-family: cursive;
+}
+.navbar{
+	position: fixed;
+	height: 100%;
+	width: 230px;
+	top: -35px;
+	left: 0px;
+	background-color:gray ;
+	transition: 0.5s;
+	z-index: 1;
+	overflow: hidden;
+	padding-top: 100px;
+
+}
+.navbar a{
+	padding: 20px 8px 20px 32px;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	display: block;
+	width: 100%;
+	left: 0px;
+	top: -20px;
+	transition: 0.3s;
+	font-family: cursive;
+}
+.navbar a:hover{
+color :gray;
+background-color: white;
+background-size: auto;
+}
+.stat{
+	margin-left: 350px;
+	height: 150px;
+	margin-top: 25px;
+
+}
+
+.jour{
+	width: 250px;
+	height: 150px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: 0px ;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: cursive;
+}
+.mois{
+	width: 250px;
+	height: 150px;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: 0px ;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #0FA200;
+	margin-left: 600px ;
+	margin-top: -168px;
+	font-family: cursive;
+}
+.semaine{
+	background-color: #253F8A;
+ 	width: 250px;
+	height: 150px;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: 0px ;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 300px ;
+	margin-top: -168px;
+	font-family: cursive;
+}
+#dash{
+	color :gray;
+background-color: white;
+background-size: auto;
+}
+
